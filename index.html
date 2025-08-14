@@ -192,9 +192,12 @@
             #dice-container { width: 250px; height: 250px; }
             .dice { width: 120px; height: 120px; }
             .face { width: 120px; height: 120px; font-size: 2.5em; }
-            .face1, .face2, .face3, .face4 { transform: rotateY(var(--rotation, 0deg)) translateZ(60px); }
-            .face5 { transform: rotateX(90deg) translateZ(60px); }
-            .face6 { transform: rotateX(-90deg) translateZ(60px); }
+            .face1 { transform: rotateY(0deg) translateZ(60px); }
+            .face6 { transform: rotateY(180deg) translateZ(60px); }
+            .face2 { transform: rotateY(90deg) translateZ(60px); }
+            .face5 { transform: rotateY(-90deg) translateZ(60px); }
+            .face3 { transform: rotateX(90deg) translateZ(60px); }
+            .face4 { transform: rotateX(-90deg) translateZ(60px); }
         }
     </style>
 </head>
